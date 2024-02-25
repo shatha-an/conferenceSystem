@@ -6,7 +6,7 @@
 
 ## **App Statement.**
 
-Conference Management Software is an system to facilitate the planning, coordination, and execution of conferences and events. This robust system caters to the core components of conference management by incorporating a suite of functionalities tailored to enhance the collaboration between speakers, organizers, and attendees
+_Conference Management Software is an system to facilitate the planning, coordination, and execution of conferences and events. This robust system caters to the core components of conference management by incorporating a suite of functionalities tailored to enhance the collaboration between speakers, organizers, and attendees_
 
 </details>
 
@@ -71,7 +71,7 @@ Conference Management Software is an system to facilitate the planning, coordina
 
 ```diff
 - > [NOTE!]
-- > the SessionAttendee table is relationship table and used "AttendeeID" ,"SessionID" as foreignKey from Basic tables (Attendee table , Session table).
+- > _the SessionAttendee table is relationship table and used "AttendeeID" ,"SessionID" as foreignKey from Basic tables (Attendee table , Session table)._
 ```
 
 </details>
@@ -85,26 +85,26 @@ Conference Management Software is an system to facilitate the planning, coordina
 
 **Create:**
 ```
-New Session. 
-New Attendee.
+Create New Session. 
+Create New Attendee.
 ```
 
 
 **Read:**
 ```
-All SEssion.
+Read All Sessions.
 ```
 
 
 **Update**: 
 ```
-Session.
-Status of Atendee.
+Update Session (SpeakerName, Title, Desc, HallNumber, StartTime, EndTime, Status, Location).
+Ubdate Status of Atendee.
 ```
 
 **Delete:**
 ```
-Session.
+Delete a Session.
 ```
 
 </details>
