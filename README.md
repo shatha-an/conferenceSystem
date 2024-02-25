@@ -19,37 +19,36 @@ _Conference Management Software is an system to facilitate the planning, coordin
 
 1-Session Table 
 
-| Column           | TYPE          |
-|-----------------:|---------------|
-|         Sessionid|uuid           |
-|             Title|String         |
-|              Desc|String         |
-|       SpeakerName|String         |
-|        HallNumber|String         |
-|ScheduledStartTime|String         |
-|   ScheduledEndime|String         |
-|            Status|String         |
-|          Location|String         |
+|        Column       |      TYPE     |
+|--------------------:|---------------|
+|   Sessionid         |     uuid      |
+|   Title             |    String     |
+|   Desc              |    String     |
+|   SpeakerName       |    String     |
+|   HallNumber        |    String     |
+|   ScheduledStartTime|    String     |
+|   ScheduledEndime   |    String     |
+|   Status            |    String     |
+|   Location          |    String     |
 
 
 2-Attendee Table 
 
-| Column           | TYPE          |
-|-----------------:|---------------|
-|        AttendeeID|uuid           |
-|          FullName|String         |
-|             Email|String         |
+|        Column       |      TYPE     |
+|--------------------:|---------------|
+|   AttendeeID        |     uuid      |
+|   FullName          |    String     |
+|   Email             |    String     |
 
 
 3-SessionAttendee Table
 
-| Column           | TYPE          |
-|-----------------:|---------------|
-| AttendeeSessionID|uuid           |
-|        AttendeeID|uuid           |
-|         Sessionid|uuid           |
-|            Status|String         |
-
+|        Column       |      TYPE     |
+|--------------------:|---------------|
+|   AttendeeSessionID |     uuid      |
+|   AttendeeID        |     uuid      |
+|   Sessionid         |     uuid      |
+|   Status            |    String     |
 
 
 </details>
