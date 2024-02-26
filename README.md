@@ -34,11 +34,11 @@ _Conference Management Software is an system to facilitate the planning, coordin
 
 2-Attendee Table 
 
-|        Column       |      TYPE     |
-|--------------------:|---------------|
-|   AttendeeID        |     uuid      |
-|   FullName          |    String     |
-|   Email             |    String     |
+|        Column       |      TYPE     |     Key
+|--------------------:|--------------:|---------------|
+|   AttendeeID        |     uuid      |      PK       |
+|   FullName          |    String     |               |
+|   Email             |    String     |               |
 
 
 
@@ -46,12 +46,12 @@ _Conference Management Software is an system to facilitate the planning, coordin
 
 3-SessionAttendee Table
 
-|        Column       |      TYPE     |
-|--------------------:|---------------|
-|   AttendeeSessionID |     uuid      |
-|   AttendeeID        |     uuid      |
-|   Sessionid         |     uuid      |
-|   Status            |    String     |
+|        Column       |      TYPE     |     Key
+|--------------------:|--------------:|---------------|
+|   AttendeeSessionID |     uuid      |      PK       |
+|   AttendeeID        |     uuid      |      FK       |
+|   Sessionid         |     uuid      |      FK       |
+|   Status            |    String     |               |
 
 
 </details>
