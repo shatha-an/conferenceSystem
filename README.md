@@ -62,7 +62,7 @@ _Conference Management Software is an system to facilitate the planning, coordin
 
 ## **Database Schema.**
 
-<img width="1036" alt="Screenshot 1445-08-16 at 9 21 51 AM" src="https://github.com/shatha-an/conferenceSystem/assets/144011837/ca020933-83ef-4aff-869e-577131b13e6a">
+<img width="1161" alt="Screenshot 1445-08-16 at 9 28 48 AM" src="https://github.com/shatha-an/conferenceSystem/assets/144011837/5be2b447-c3bf-4ee2-84bf-8d0a1e9bb712">
 
 
 </details>
