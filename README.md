@@ -26,8 +26,8 @@ _Conference Management Software is an system to facilitate the planning, coordin
 |   Desc              |    String     |
 |   SpeakerName       |    String     |
 |   HallNumber        |    String     |
-|   ScheduledStartTime|    String     |
-|   ScheduledEndime   |    String     |
+|   StartTime         |    String     |
+|   Endime            |    String     |
 |   Status            |    String     |
 |   Location          |    String     |
 
@@ -40,6 +40,9 @@ _Conference Management Software is an system to facilitate the planning, coordin
 |   FullName          |    String     |
 |   Email             |    String     |
 
+
+
+**Relationship table**
 
 3-SessionAttendee Table
 
@@ -68,7 +71,7 @@ _Conference Management Software is an system to facilitate the planning, coordin
 <details>
 <summary>RelationShip</summary>
 
-## **Relationships.**
+## **Relationship.**
   
 ### Many-To-Many (M:) Relationship.
 
